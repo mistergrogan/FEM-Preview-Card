@@ -3,20 +3,30 @@ body {
 }
 
 .flexbox-container {
-
+    display: flex;
+    justify-content: center;
 }
 
-.flexbox-item {
+.container1 {
     width: 600px;
     height: 400px;
     background-color: hsl(0, 0%, 100%);
-    border: 1px solid hsl(30, 38%, 92%);
     border-radius: 2%;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    font-size: 30px;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    /* padding: 10px;
+    margin: 10px; */
+    border: solid 2px green;
+}
 
+.container1 img {
+    width: 300px;
+    height: 400px;
+}
+
+.perfume {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
 }
